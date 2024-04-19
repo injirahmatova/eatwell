@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        padding: 20px;
+
+        .logo {
+            h1 {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 32px;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                letter-spacing: 5px;
+            }
+        }
+
+        .navBar {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+
+            ul {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        font-style: normal;
+                        color: gray;
+                        transition: 0.4s ease;
+
+                        &:hover {
+                            color: rgba(255, 255, 255, 0.75);
+                            cursor: pointer;
+                            transition: 0.4s ease;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// #section1{
+//     width: 100%;
+//     min-height: 600px;
+//    margin-bottom: 95px;
+
+//     background-image: url('https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg');
+//     background-color: yellow;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-attachment: fixed;
+
+// .container2{
+//     min-height: 600px;
+// width: 95%;
+// display: flex;
+// flex-direction: column;
+// align-items: center;
+// justify-content: center;
+// background-color: aqua;
+// position: fixed;
+// .content{
+// display: flex;
+// align-items: center;
+// justify-content: center;
+
+// } ;
+
+
+
+// }
+
+
+// }
+#section1 {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 95px;
+    background-image: url('https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    .container2 {
+        width: 95%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 300px;
+            flex-direction: column;
+
+            h1 {
+                font-family: "Playfair Display", serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 72px;
+                line-height: 101px;
+                color: white;
+            }
+
+            span {
+                font-weight: 300;
+                font-style: normal;
+                font-size: 20px;
+                line-height: 29px;
+                color: rgba(255, 255, 255, 0.7);
+                margin-top: 15px;
+            }
+
+            button {
+                width: 25%;
+                height: 50px;
+                background-color: transparent;
+                font-family: "Playfair Display", serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: white;
+                border: 3px solid white;
+                margin-top: 25px;
+                transition: 1s ease;
+
+                &:hover {
+                    background-color: #FFFFFF;
+                    transition: 1s ease;
+                    cursor: pointer;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+#section2 {
+    width: 100%;
+    height: 400px;
+    background-color: #FFFFFF;
+
+    .container3 {
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .content2 {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 60px;
+            text-align: justify;
+            gap: 17px;
+
+
+            h1 {
+                font-family: "Playfair Display", serif;
+                font-weight: 300;
+                font-style: normal;
+                font-size: 56px;
+                line-height: 62px;
+                color: black;
+                }
+
+            h4 {
+                font-weight: 300;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 23px;
+                color: rgb(212, 212, 212);
+                letter-spacing: 5px;
+                }
+            p {
+                font-weight: 100;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 23px;
+                color: rgb(184, 184, 184);
+            }
+        }
+    }
+
+    .image {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+
+        img {
+            width: 95%;
+
+        }
+    }
+
+    button {
+        width: 40%;
+        height: 48px;
+        font-family: "Playfair Display", serif;
+        font-size: 16px;
+        padding: 6px;
+        background-color: #FFFFFF;
+        border: 1px solid grey;
+
+        &:hover {
+            background-color: #FDA403;
+            color: white;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+    }
+
+}
